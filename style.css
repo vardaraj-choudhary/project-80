@@ -1,0 +1,90 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/* Setting the font and padding of all of the headings */
+h3{
+	font-family: 'Lato', cursive;
+	font-size: 2.5rem;
+	padding-bottom:0;
+}
+/* Setting the font family of the button */
+button{
+	font-family: 'Montserrat', sans-serif;
+}
+/* Setting the margin of the input */
+input {
+	margin: 10px;
+}
+/* Styling the paragraphs */
+p{
+	padding-top:20px;
+}
+/* Styling all the divs */
+.top-div{
+	background-color: #EFFFFD;
+	padding:150px;
+	padding-bottom:100px;
+	color:#66BFBF;
+}
+.bottom-div{
+	padding:150px;
+	background-color:#EFCEFA;
+	color:rgb(97, 41, 226);
+}
+/* Styling all the inputs */
+#s1{
+	color:rgb(97, 41, 226);
+	border-color:rgb(97, 41, 226);
+	border-style:none;
+	padding:7px;
+}
+#name1{
+	color:#66BFBF;
+	border-style:none;
+	padding:7px;
+}
+/* Styling all the buttons */
+#show{
+	margin-bottom: 10px;
+}
+#submit_button {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#sort_button {
+	display: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#srch{
+	background-color:rgb(97, 41, 226);
+	color:white;
+}
+#srch:hover{
+	background-color:rgb(66, 15, 184);
+	color:white;
+}
+/* Styling all the placeholders */
+#name1::placeholder{
+	color:#b8e4df;
+}
+#name1:-ms-input-placeholder {
+	color:#b8e4df;
+   ;
+}
+#name1::-ms-input-placeholder {
+	color:#b8e4df;
+   ;
+}
+#s1::-ms-input-placeholder {
+	color:rgb(167, 143, 223);
+}
+#s1::placeholder{
+	color:rgb(167, 143, 223);
+}
+#s1:-ms-input-placeholder {
+	color:rgb(167, 143, 223);
+}
+#s1::-ms-input-placeholder {
+	color:rgb(167, 143, 223);
+}
